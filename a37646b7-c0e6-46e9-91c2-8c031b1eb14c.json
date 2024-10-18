@@ -1,0 +1,24 @@
+[ {
+  "defaultTab" : "nodes",
+  "description" : "",
+  "executionEnabled" : true,
+  "id" : "3569bf35-a871-465e-9d93-89e286a43be4",
+  "loglevel" : "INFO",
+  "name" : "test 1",
+  "nodeFilterEditable" : false,
+  "plugins" : {
+    "ExecutionLifecycle" : { }
+  },
+  "scheduleEnabled" : true,
+  "schedules" : [ ],
+  "sequence" : {
+    "commands" : [ {
+      "autoSecureInput" : "false",
+      "passSecureInput" : "false",
+      "script" : "echo \"Hello\""
+    } ],
+    "keepgoing" : false,
+    "strategy" : "node-first"
+  },
+  "uuid" : "3569bf35-a871-465e-9d93-89e286a43be4"
+} ]
